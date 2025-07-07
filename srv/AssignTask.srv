@@ -1,0 +1,6 @@
+int32 robot_id
+---
+bool success
+int32 task_id
+geometry_msgs/Point shelf
+geometry_msgs/Point drop

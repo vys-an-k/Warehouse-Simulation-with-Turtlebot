@@ -1,3 +1,3 @@
 # Warehouse-Simulation-with-Turtlebot
 
-This project uses ROS2 humble for warehouse simulation with gazebo in WSL2. The task manager assigns tasks to the turtlebot and the robot executor carries out the tasks (move from pick up location to drop off point).
+This project uses ROS2 humble for warehouse simulation with gazebo in WSL2. The task manager assigns tasks to the turtlebot and the robot executor carries out the tasks (move from pick up location to drop off point). The setup can be extended to spawn and control multiple robots.

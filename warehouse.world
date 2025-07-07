@@ -1,0 +1,206 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+	<world name="warehouse">
+		 <include><uri>model://ground_plane</uri></include>
+		 <include><uri>model://sun</uri></include>
+		 <model name="shelf_1">
+			<pose>2 1 0 0 0 0</pose>
+			<link name="link">
+				<visual name="visual">
+					<geometry>
+						<box><size>1 0.5 1</size></box>
+					</geometry>
+				</visual>
+				<collision name="collision">
+					<geometry>
+						<box><size>1 0.5 1</size></box>
+					</geometry>
+				</collision>
+			</link>		
+		</model>
+		 <model name="shelf_2">
+                        <pose>2 3 0 0 0 0</pose>
+                        <link name="link">
+                                <visual name="visual">
+                                        <geometry>
+                                                <box><size>1 0.5 1</size></box>
+                                        </geometry>
+                                </visual>
+                                <collision name="collision">
+                                        <geometry>
+                                                <box><size>1 0.5 1</size></box>
+                                        </geometry>
+                                </collision>
+                        </link>
+		</model>
+		 <model name="shelf_3">
+                        <pose>2 5 0 0 0 0</pose>
+                        <link name="link">
+                                <visual name="visual">
+                                        <geometry>
+                                                <box><size>1 0.5 1</size></box>
+                                        </geometry>
+                                </visual>
+                                <collision name="collision">
+                                        <geometry>
+                                                <box><size>1 0.5 1</size></box>
+                                        </geometry>
+                                </collision>
+                        </link>
+		</model>
+		 <model name="shelf_4">
+                        <pose>4 1 0 0 0 0</pose>
+                        <link name="link">
+                                <visual name="visual">
+                                        <geometry>
+                                                <box><size>1 0.5 1</size></box>
+                                        </geometry>
+                                </visual>
+                                <collision name="collision">
+                                        <geometry>
+                                                <box><size>1 0.5 1</size></box>
+                                        </geometry>
+                                </collision>
+                        </link>
+		</model>
+		 <model name="shelf_5">
+                        <pose>4 3 0 0 0 0</pose>
+                        <link name="link">
+                                <visual name="visual">
+                                        <geometry>
+                                                <box><size>1 0.5 1</size></box>
+                                        </geometry>
+                                </visual>
+                                <collision name="collision">
+                                        <geometry>
+                                                <box><size>1 0.5 1</size></box>
+                                        </geometry>
+                                </collision>
+                        </link>
+		</model>
+		 <model name="shelf_6">
+                        <pose>4 5 0 0 0 0</pose>
+                        <link name="link">
+                                <visual name="visual">
+                                        <geometry>
+                                                <box><size>1 0.5 1</size></box>
+                                        </geometry>
+                                </visual>
+                                <collision name="collision">
+                                        <geometry>
+                                                <box><size>1 0.5 1</size></box>
+                                        </geometry>
+                                </collision>
+                        </link>
+		</model>
+		 <model name="shelf_7">
+                        <pose>6 1 0 0 0 0</pose>
+                        <link name="link">
+                                <visual name="visual">
+                                        <geometry>
+                                                <box><size>1 0.5 1</size></box>
+                                        </geometry>
+                                </visual>
+                                <collision name="collision">
+                                        <geometry>
+                                                <box><size>1 0.5 1</size></box>
+                                        </geometry>
+                                </collision>
+                        </link>
+		</model>
+		 <model name="shelf_8">
+                        <pose>6 3 0 0 0 0</pose>
+                        <link name="link">
+                                <visual name="visual">
+                                        <geometry>
+                                                <box><size>1 0.5 1</size></box>
+                                        </geometry>
+                                </visual>
+                                <collision name="collision">
+                                        <geometry>
+                                                <box><size>1 0.5 1</size></box>
+                                        </geometry>
+                                </collision>
+                        </link>
+		</model>
+		 <model name="shelf_9">
+                        <pose>6 5 0 0 0 0</pose>
+                        <link name="link">
+                                <visual name="visual">
+                                        <geometry>
+                                                <box><size>1 0.5 1</size></box>
+                                        </geometry>
+                                </visual>
+                                <collision name="collision">
+                                        <geometry>
+                                                <box><size>1 0.5 1</size></box>
+                                        </geometry>
+                                </collision>
+                        </link>
+		</model>
+                <model name="wall_1">
+                        <pose>0 3 0 0 0 0</pose>
+                        <link name="link">
+                                <visual name="visual">
+                                        <geometry>
+                                                <box><size>0.1 8 2</size></box>
+                                        </geometry>
+                                </visual>
+                                <collision name="collision">
+                                        <geometry>
+                                                <box><size>0.1 8 2</size></box>
+                                        </geometry>
+                                </collision>
+                        </link>
+		</model>
+                <model name="wall_2">
+                        <pose>4 7 0 0 0 0</pose>
+                        <link name="link">
+                                <visual name="visual">
+                                        <geometry>
+                                                <box><size>8 0.1 2</size></box>
+                                        </geometry>
+                                </visual>
+                                <collision name="collision">
+                                        <geometry>
+                                                <box><size>8 0.1 2</size></box>
+                                        </geometry>
+                                </collision>
+                        </link>
+		</model>
+                <model name="wall_3">
+                        <pose>8 3 0 0 0 0</pose>
+                        <link name="link">
+                                <visual name="visual">
+                                        <geometry>
+                                                <box><size>0.1 8 2</size></box>
+                                        </geometry>
+                                </visual>
+                                <collision name="collision">
+                                        <geometry>
+                                                <box><size>0.1 8 2</size></box>
+                                        </geometry>
+                                </collision>
+                        </link>
+		</model>
+                <model name="wall_4">
+                        <pose>4 -1 0 0 0 0</pose>
+                        <link name="link">
+                                <visual name="visual">
+                                        <geometry>
+                                                <box><size>8 0.1 2</size></box>
+                                        </geometry>
+                                </visual>
+                                <collision name="collision">
+                                        <geometry>
+                                                <box><size>8 0.1 2</size></box>
+                                        </geometry>
+                                </collision>
+                        </link>
+		</model>
+		<plugin name="gazebo_ros_factory" filename="libgazebo_ros_factory.so">
+			<ros><namespace>/</namespace></ros>
+		</plugin>
+	</world>	
+</sdf>
+
